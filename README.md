@@ -3,7 +3,7 @@ FastAPI app that allows user to fetch random image from a subreddit and access h
 Database file is created at first launch
 #How to run:
 1. Copy project to your local machine
-2. Substitute variables in config.json file with valid creditentials
+2. Substitute variables in app/config.json file with valid creditentials (You can get all required info at https://www.reddit.com/prefs/apps/)
 3. Move your CWD to main folder of the project
 4. Build docker image using 
     >docker build -t imagedownloaderimage .
